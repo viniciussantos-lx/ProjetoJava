@@ -259,6 +259,9 @@ public class Main {
 
 
     public static void main(String[] args) throws java.io.IOException {
+
+        exibirMenuLogin();
+        
         while (true) {
             exibirMenu();
             String escolha = capturarEntrada("\nDigite a opção desejada: ");
